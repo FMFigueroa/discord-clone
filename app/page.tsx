@@ -1,5 +1,15 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
-    <p className='text-3xl font-bold text-indigo-500'>Hello Lenobit App</p>
+    <div>
+      <p className="text-3xl font-bold text-indigo-500">
+      Hello Lenobit App
+    </p>
+    <Button>
+      Click me
+    </Button>
+    </div>
+    
   )
 }
