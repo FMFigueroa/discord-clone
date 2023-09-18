@@ -141,25 +141,6 @@ export const ServerSidebar = async ({
             </div>
           </div>
         )}
-        {!!members?.length && (
-          <div className="mb-2">
-            <ServerSection
-              sectionType="members"
-              role={role}
-              label="Members"
-              server={server}
-            />
-            <div className="space-y-[2px]">
-              {members.map((member) => (
-                <ServerMember
-                  key={member.id}
-                  member={member}
-                  server={server}
-                />
-              ))}
-            </div>
-          </div>
-        )}
         {/** Voice Channels Section */}
         {!!audioChannels?.length && (
           <div className="mb-2">
