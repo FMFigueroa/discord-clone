@@ -12,8 +12,8 @@ import { QueryProvider } from '@/components/providers/query-provider'
 const font = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lenobit',
-  description: 'Lenobit is a WebSite Awesome',
+  title: 'Chat-Team',
+  description: 'Chat-Team is a WebSite Awesome',
 }
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
         font.className,
         "bg-white dark:bg-[#313338]"
         )} >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem ={false} storageKey="lenobit-theme">
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem ={false} storageKey="Chateam-theme">
           <SocketProvider>
             <ModalProvider />
             <QueryProvider>
